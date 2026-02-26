@@ -68,9 +68,9 @@ Summarizes the trade-offs of each approach and identifies the best-performing co
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |-------|----------|-----------|--------|----------|
-| CountVectorizer (Baseline) | — | — | — | — |
-| TF-IDF | — | — | — | — |
-| N-grams (Bi-grams) | — | — | — | — |
+| CountVectorizer (Baseline) | 0.9758 | 0.9919 | 0.8255 | 0.9011 |
+| TF-IDF | 0.9677 | 1.0000 | 0.7584 | 0.8626 |
+| N-grams (Bi-grams) | 0.9758 | 1.0000 | 0.8188 | 0.9004 |
 
 > *Run the notebook to populate exact metric values from your environment.*
 
@@ -99,7 +99,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 ## How to Run
 
 1. Clone this repository or download the notebook.
-2. Open `S26_AISec_Assignment1_Riddhi_Sanghvi.ipynb` in Jupyter or Google Colab.
+2. Open `spam_classification.ipynb` in Jupyter or Google Colab.
 3. Run all cells sequentially (Runtime → Run All in Colab).
 4. Metrics for each model will be printed in dictionary format for easy comparison.
 
